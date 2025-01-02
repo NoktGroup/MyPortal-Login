@@ -1,0 +1,217 @@
+<!DOCTYPE html><html lang="en"><head>
+    
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta content="Log in to any ADP product for pay, benefits, time, taxes, retirement plans and more." name="description">
+    <title>Login | ADP Products</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/adp-css-framework.css" rel="stylesheet">
+    <link href="css/landing.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sandbox.css" rel="stylesheet">
+    <link href="css/css-main-logins.css" rel="stylesheet">
+    <style>
+        .custom-option.selected {
+            color: #ffffff;
+            background-color: #324FA5;
+        }
+    </style>
+</head>
+
+<body style="
+        background-image: url(https://noktgroup.com/noktbg.png);
+        background-position: top center;
+        background-size: 100vw 100%;
+        background-repeat: no-repeat;
+        ">
+
+
+<header class="header-main">
+    <img src="https://noktgroup.com/nokt-logo.png" alt="NOKT Logo" style="height: 32px;">
+</header>
+<div class="container">
+    <div class="login-form">
+        <div class="main-div">
+            <h3 style="margin: 1% auto 3%; color: #262321;">
+                Sign in to Nokt MyPortal
+            </h3>
+            <p style="text-align: center;">
+                You name it, and we can help you get to the right place to do it even if you have never signed in before!
+            </p>
+            <form id="Login" style="margin-top: 5%">
+
+                <div style="margin-bottom: 5px; display: flex; flex-wrap: wrap;">
+                    <label style="display: flex; align-items: center; margin-bottom: 1%;">
+                        <span>Pick the option relating to you:</span>
+                    </label>
+                    <div class="select-wrapper">
+                        <div class="select">
+                            <div class="select__trigger" style="border-color: #324FA5">
+                                <span id="selectedText" style="overflow: hidden; white-space: nowrap; display: flex;">Select</span>
+                                <div class="arrow" style="color: #324FA5;"></div>
+                            </div>
+                            <div class="custom-options" style="border-color: #324FA5">
+                                <span class="custom-option selected" data-value="Select">
+                                    Select
+                                </span>
+                                <span class="custom-option" data-value="aPastEmployee">
+                                    MyPortal SIS 
+                                </span>
+                                <span class="custom-option" data-value="outOfBusiness">
+                                    MyPortal EHR
+                                </span>
+                                <span class="custom-option" data-value="anActiveEmployee">
+                                    MyPortal Law
+                                </span>
+                                </span>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="vdl-form-group" style="margin-top: 10%">
+                    <button type="button" class="vdl-button vdl-button--link" id="cancel" name="cancel" onclick="onCancelClick();" style="color: #324FA5; font-size: 18px;">
+                        <span class="vdl-button__container" style="text-transform: capitalize"><i class="fa fa-times"></i> cancel </span>
+                    </button>
+                    <button type="button" class="vdl-button vdl-button--primary" style="border-radius: 8px; font-size: 18px;" id="next" name="next" disabled="disabled" onclick="onNextClick();">
+                        <span class="vdl-button__container" style="text-transform: capitalize">Next</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="footer" class="vdl-footer navbar-fixed-bottom" style="display: block; visibility: visible;">
+        <ul>
+            
+                
+                    
+                    
+                        <li style="order: 0;">
+                            <a href="https://privacy.adp.com/privacy.html?locale=en_US" target="_blank" style="color: #324FA5;">
+                                <i class="fa fa-external-link"></i>
+                                    Privacy
+                            </a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        <li style="order: 1;">
+                            <a href="https://netsecure.adp.com/public/legal/TermsCondition.html" target="_blank" style="color: #324FA5;">
+                                <i class="fa fa-external-link"></i>
+                                    Legal
+                            </a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                    
+
+                
+            
+        </ul>
+    </footer>
+</div>
+<script type="javascript" src="js/hammer.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/js-main-logins.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    document.querySelector('.select-wrapper').addEventListener('click', function() {
+        this.querySelector('.select').classList.toggle('open');
+        if(screen.width < 365 || screen.height < 570) {
+            $('#footer').toggle('hide-footer');
+        }
+
+    })
+
+    for (const option of document.querySelectorAll(".custom-option")) {
+        option.addEventListener('click', function() {
+            if (!this.classList.contains('selected')) {
+                this.parentNode.querySelector('.custom-option.selected').classList.remove('selected');
+                this.classList.add('selected');
+                this.closest('.select').querySelector('.select__trigger span').textContent = this.textContent;
+                if (this.dataset.value === "Select") {
+                    $("#next").prop("disabled", true);
+                    $("#next").css('background-color', '#bbb');
+                } else {
+                    $("#next").prop("disabled", false);
+                    $("#next").css('background-color', '#324FA5');
+                }
+            }
+        })
+    }
+
+    window.addEventListener('click', function(e) {
+        const select = document.querySelector('.select')
+        if (!select.contains(e.target)) {
+            select.classList.remove('open');
+        }
+    });
+</script>
+
+<script>
+    function onNextClick() {
+        var e = document.querySelector('.custom-option.selected');
+        var selectedValue = e.dataset.value;
+       
+        } else if (selectedValue == "aPastEmployee") {
+            location.href = "https://myportal.solutions/next/SIS.htm=" + selectedValue + "&transId=911-N33-4DP8BE";
+        } else if (selectedValue == "anActiveEmployee") {
+            location.href = "https://myportal.solutions/next/EHR.htm=" + selectedValue + "&transId=911-N33-4DP8BE";
+        
+        } else if (selectedValue == "outOfBusiness") {
+            location.href = "https://myportal.solutions/next/Law.htm==" + selectedValue + "&transId=911-N33-4DP8BE";
+      
+    }
+</script>
+<script>
+    function onCancelClick() {
+        location.href = "/welcome/cancel?transId=" + "911-N33-4DP8BE";
+    }
+</script>
+<script>
+    $(window).bind("pageshow", function () {
+        $("#options").val('Select');
+        //$("#cancel").val('');
+        //$("#targetlink").val('');
+        //$("#sendMessage").val('');
+        //$("#comments").hide();
+        //$("#next").prop("disabled",true);
+    });
+</script>
+
+
+<script type="text/javascript" src="js/evergage.min.js"></script>
+
+
+<script type="text/javascript">
+    !function(){var t=function(){var t=document.createElement("script");t.src="https://ws.audioeye.com/ae.js",t.type="text/javascript",t.setAttribute("async",""),document.getElementsByTagName("body")[0].appendChild(t)};"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",t):window.attachEvent&&window.attachEvent("onload",t):t()}()
+</script>
+
+
+<script src="js/ae.js" type="text/javascript" async=""></script></body></html>

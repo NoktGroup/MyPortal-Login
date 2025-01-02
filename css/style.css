@@ -1,0 +1,1424 @@
+@font-face {
+	font-family: 'FontADP';
+	src: url('../fonts/FontADP.eot');
+	src: url('../fonts/FontADP.eot#iefix') format('embedded-opentype'),
+		url('../fonts/FontADP.woff2') format('woff2'),
+		url('../fonts/FontADP.ttf') format('truetype'),
+		url('../fonts/FontADP.woff') format('woff'),
+		url('../images/FontADP.svg#FontADP') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'FontADP';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chart-tree:before {
+	content: "\e600";
+}
+
+.icon-chart-step:before {
+	content: "\e601";
+}
+
+.icon-chart-line:before {
+	content: "\e602";
+}
+
+.icon-chart-heatmap:before {
+	content: "\e603";
+}
+
+.icon-chart-bullet:before {
+	content: "\e604";
+}
+
+.icon-chart-bubble:before {
+	content: "\e605";
+}
+
+.icon-chart-area:before {
+	content: "\e606";
+}
+
+.icon-chart-scatter:before {
+	content: "\e607";
+}
+
+.icon-chart-column:before {
+	content: "\e608";
+}
+
+.icon-chart-donut:before {
+	content: "\e609";
+}
+
+.icon-clients-info:before {
+	content: "\e60a";
+}
+
+.icon-client-info:before {
+	content: "\e60b";
+}
+
+.icon-avs:before {
+	content: "\e60c";
+}
+
+.icon-tops:before {
+	content: "\e60d";
+}
+
+.icon-adpr:before {
+	content: "\e60e";
+}
+
+.icon-vistaplus:before {
+	content: "\e60f";
+}
+
+.icon-file-type-ind:before {
+	content: "\e610";
+}
+
+.icon-file-type-zip:before {
+	content: "\e611";
+}
+
+.icon-file-type-msg:before {
+	content: "\e612";
+}
+
+.icon-file-type-ai:before {
+	content: "\e613";
+}
+
+.icon-file-type-tif:before {
+	content: "\e614";
+}
+
+.icon-file-type-png:before {
+	content: "\e615";
+}
+
+.icon-file-type-gif:before {
+	content: "\e616";
+}
+
+.icon-file-type-jpg:before {
+	content: "\e617";
+}
+
+.icon-file-type-avi:before {
+	content: "\e618";
+}
+
+.icon-file-type-swf:before {
+	content: "\e619";
+}
+
+.icon-file-type-mp4:before {
+	content: "\e61a";
+}
+
+.icon-file-type-mov:before {
+	content: "\e61b";
+}
+
+.icon-file-type-fla:before {
+	content: "\e61c";
+}
+
+.icon-file-type-html:before {
+	content: "\e61d";
+}
+
+.icon-file-type-pdf:before {
+	content: "\e61e";
+}
+
+.icon-file-type-ppt:before {
+	content: "\e61f";
+}
+
+.icon-file-type-csv:before {
+	content: "\e620";
+}
+
+.icon-file-type-xls:before {
+	content: "\e621";
+}
+
+.icon-file-type-txt:before {
+	content: "\e622";
+}
+
+.icon-file-type-rtf:before {
+	content: "\e623";
+}
+
+.icon-file-type-doc:before {
+	content: "\e624";
+}
+
+.icon-file-type-generic:before {
+	content: "\e625";
+}
+
+.icon-vacation-timeoff:before {
+	content: "\e626";
+}
+
+.icon-unscheduled-shift-location:before {
+	content: "\e627";
+}
+
+.icon-unscheduled-shift:before {
+	content: "\e628";
+}
+
+.icon-shift-pay:before {
+	content: "\e629";
+}
+
+.icon-secondary-position:before {
+	content: "\e62a";
+}
+
+.icon-part-time-employee:before {
+	content: "\e62b";
+}
+
+.icon-overtime-shift:before {
+	content: "\e62c";
+}
+
+.icon-on-call-shift:before {
+	content: "\e62d";
+}
+
+.icon-missing-punch:before {
+	content: "\e62e";
+}
+
+.icon-minor-employee:before {
+	content: "\e62f";
+}
+
+.icon-mgr-note:before {
+	content: "\e630";
+}
+
+.icon-mgr-edited-transaction:before {
+	content: "\e631";
+}
+
+.icon-whole-year:before {
+	content: "\e632";
+}
+
+.icon-daylight-savings:before {
+	content: "\e633";
+}
+
+.icon-semi-year:before {
+	content: "\e634";
+}
+
+.icon-clocked-in:before {
+	content: "\e635";
+}
+
+.icon-borrowed-employee:before {
+	content: "\e636";
+}
+
+.icon-note:before {
+	content: "\e637";
+}
+
+.icon-approved-time-off:before {
+	content: "\e638";
+}
+
+.icon-gl-translation:before {
+	content: "\e639";
+}
+
+.icon-gl-select-row:before {
+	content: "\e63a";
+}
+
+.icon-gl-select-column:before {
+	content: "\e63b";
+}
+
+.icon-gl-named-constant:before {
+	content: "\e63c";
+}
+
+.icon-gl-expression:before {
+	content: "\e63d";
+}
+
+.icon-run:before {
+	content: "\e63e";
+}
+
+.icon-translations-select:before {
+	content: "\e63f";
+}
+
+.icon-translations:before {
+	content: "\e640";
+}
+
+.icon-mapping-select:before {
+	content: "\e641";
+}
+
+.icon-mapping:before {
+	content: "\e642";
+}
+
+.icon-import-select:before {
+	content: "\e643";
+}
+
+.icon-import:before {
+	content: "\e644";
+}
+
+.icon-file-def-select:before {
+	content: "\e645";
+}
+
+.icon-file-def:before {
+	content: "\e646";
+}
+
+.icon-expression-select:before {
+	content: "\e647";
+}
+
+.icon-expression:before {
+	content: "\e648";
+}
+
+.icon-adv-details-select:before {
+	content: "\e649";
+}
+
+.icon-adv-details:before {
+	content: "\e64a";
+}
+
+.icon-view-pay-data:before {
+	content: "\e64b";
+}
+
+.icon-verify-input:before {
+	content: "\e64c";
+}
+
+.icon-start-new-cycle:before {
+	content: "\e64d";
+}
+
+.icon-review-results:before {
+	content: "\e64e";
+}
+
+.icon-enter-emp-changes:before {
+	content: "\e64f";
+}
+
+.icon-calc-payroll:before {
+	content: "\e650";
+}
+
+.icon-add-new-hire:before {
+	content: "\e651";
+}
+
+.icon-portal-themes:before {
+	content: "\e652";
+}
+
+.icon-portal-pages:before {
+	content: "\e653";
+}
+
+.icon-portal-home:before {
+	content: "\e654";
+}
+
+.icon-portal-fields:before {
+	content: "\e655";
+}
+
+.icon-task-impt:before {
+	content: "\e656";
+}
+
+.icon-manager:before {
+	content: "\e657";
+}
+
+.icon-reset:before {
+	content: "\e658";
+}
+
+.icon-minimize:before {
+	content: "\e659";
+}
+
+.icon-maximize:before {
+	content: "\e65a";
+}
+
+.icon-accessnone:before {
+	content: "\e65b";
+}
+
+.icon-accesssome:before {
+	content: "\e65c";
+}
+
+.icon-accessall:before {
+	content: "\e65d";
+}
+
+.icon-status-active:before {
+	content: "\e65e";
+}
+
+.icon-status-offline:before {
+	content: "\e65f";
+}
+
+.icon-status-inmtg:before {
+	content: "\e660";
+}
+
+.icon-status-chat:before {
+	content: "\e661";
+}
+
+.icon-status-busy:before {
+	content: "\e662";
+}
+
+.icon-status-away:before {
+	content: "\e663";
+}
+
+.icon-shopping-cart:before {
+	content: "\e664";
+}
+
+.icon-close-thin:before {
+	content: "\e665";
+}
+
+.icon-powered-by-adp:before {
+	content: "\e666";
+}
+
+.icon-adp:before {
+	content: "\e667";
+}
+
+.icon-file-type-psd:before {
+	content: "\e668";
+}
+
+.icon-file-type-wav:before {
+	content: "\e669";
+}
+
+.icon-file-type-mpa:before {
+	content: "\e66a";
+}
+
+.icon-file-type-mp3:before {
+	content: "\e66b";
+}
+
+.icon-dockit:before {
+	content: "\e66c";
+}
+
+.icon-restore:before {
+	content: "\e66d";
+}
+
+.icon-company-holiday:before {
+	content: "\e66e";
+}
+
+.icon-employee-on-loan:before {
+	content: "\e66f";
+}
+
+.icon-import-disabled:before {
+	content: "\e670";
+}
+
+.icon-mapping-disabled:before {
+	content: "\e671";
+}
+
+.icon-expression-disabled:before {
+	content: "\e672";
+}
+
+.icon-translations-disabled:before {
+	content: "\e673";
+}
+
+.icon-file-def-disabled:before {
+	content: "\e674";
+}
+
+.icon-adv-details-disabled:before {
+	content: "\e675";
+}
+
+.icon-page-last:before {
+	content: "\e676";
+}
+
+.icon-page-first:before {
+	content: "\e677";
+}
+
+.icon-new-hire-review:before {
+	content: "\e678";
+}
+
+.icon-file-type-xml:before {
+	content: "\e679";
+}
+
+.icon-file-type-wmv:before {
+	content: "\e67a";
+}
+
+.icon-file-type-bmp:before {
+	content: "\e67b";
+}
+
+.icon-file-type-vsd:before {
+	content: "\e67c";
+}
+
+.icon-svg-filter:before {
+	content: "\e67d";
+}
+
+.icon-svg-filter-checkmark:before {
+	content: "\e67e";
+}
+
+.icon-svg-review-result:before {
+	content: "\e67f";
+}
+
+.icon-archive:before {
+	content: "\e680";
+}
+
+.icon-disciplinary:before {
+	content: "\e681";
+}
+
+.icon-file-type-docx:before {
+	content: "\e682";
+}
+
+.icon-file-type-pptx:before {
+	content: "\e683";
+}
+
+.icon-file-type-xlsx:before {
+	content: "\e684";
+}
+
+.icon-pip:before {
+	content: "\e685";
+}
+
+.icon-the-bridge:before {
+	content: "\e686";
+}
+
+.icon-business-card:before {
+	content: "\e689";
+}
+
+.icon-add-contractor:before {
+	content: "\e900";
+}
+
+.icon-adp-payments:before {
+	content: "\e901";
+}
+
+.icon-attach-document1:before {
+	content: "\e902";
+}
+
+.icon-attach-document2:before {
+	content: "\e903";
+}
+
+.icon-attached-documents:before {
+	content: "\e904";
+}
+
+.icon-attached-single-document:before {
+	content: "\e905";
+}
+
+.icon-auto-payroll:before {
+	content: "\e906";
+}
+
+.icon-background-checks:before {
+	content: "\e907";
+}
+
+.icon-blank-button-slider:before {
+	content: "\e908";
+}
+
+.icon-calculator:before {
+	content: "\e909";
+}
+
+.icon-certificate-insurance:before {
+	content: "\e90a";
+}
+
+.icon-common-templates:before {
+	content: "\e90b";
+}
+
+.icon-grip:before {
+	content: "\e90c";
+}
+
+.icon-discounts:before {
+	content: "\e90d";
+}
+
+.icon-employee-access:before {
+	content: "\e90e";
+}
+
+.icon-employee-handbook:before {
+	content: "\e90f";
+}
+
+.icon-folder-add:before {
+	content: "\e910";
+}
+
+.icon-folder-upload:before {
+	content: "\e911";
+}
+
+.icon-general-ledger:before {
+	content: "\e912";
+}
+
+.icon-help-desk:before {
+	content: "\e913";
+}
+
+.icon-hiring-toolkit:before {
+	content: "\e914";
+}
+
+.icon-hiring:before {
+	content: "\e915";
+}
+
+.icon-hr411:before {
+	content: "\e916";
+}
+
+.icon-import-time-and-pay:before {
+	content: "\e917";
+}
+
+.icon-pagination-previous:before {
+	content: "\e918";
+}
+
+.icon-add-all:before {
+	content: "\e919";
+}
+
+.icon-pagination-next:before {
+	content: "\e91a";
+}
+
+.icon-remove-all:before {
+	content: "\e91b";
+}
+
+.icon-pagination-last:before {
+	content: "\e91c";
+}
+
+.icon-industry-specific-templates:before {
+	content: "\e91d";
+}
+
+.icon-manual-check:before {
+	content: "\e91e";
+}
+
+.icon-newhire-paperwork:before {
+	content: "\e91f";
+}
+
+.icon-no-button-slider:before {
+	content: "\e920";
+}
+
+.icon-performance-toolkit:before {
+	content: "\e921";
+}
+
+.icon-policy-toolkit:before {
+	content: "\e922";
+}
+
+.icon-print-check:before {
+	content: "\e923";
+}
+
+.icon-print-directdebit:before {
+	content: "\e924";
+}
+
+.icon-recordkeeping-toolkit:before {
+	content: "\e925";
+}
+
+.icon-run-payroll:before {
+	content: "\e926";
+}
+
+.icon-special-payroll:before {
+	content: "\e927";
+}
+
+.icon-taxes-w2:before {
+	content: "\e928";
+}
+
+.icon-tlm-organize:before {
+	content: "\e929";
+}
+
+.icon-tlm-policy:before {
+	content: "\e92a";
+}
+
+.icon-tlm-section:before {
+	content: "\e92b";
+}
+
+.icon-tools:before {
+	content: "\e92c";
+}
+
+.icon-vault:before {
+	content: "\e92d";
+}
+
+.icon-view-report:before {
+	content: "\e92e";
+}
+
+.icon-void-checks:before {
+	content: "\e92f";
+}
+
+.icon-yes-button-slider:before {
+	content: "\e930";
+}
+
+.icon-pagination-first:before {
+	content: "\e931";
+}
+
+.icon-clients-book:before {
+	content: "\e932";
+}
+
+.icon-split:before {
+	content: "\e933";
+}
+
+.icon-adp-marketplace:before {
+	content: "\e934";
+}
+
+.icon-angular:before {
+	content: "\e935";
+}
+
+.icon-jquery:before {
+	content: "\e936";
+}
+
+.icon-lidless-can:before {
+	content: "\e937";
+}
+
+.icon-can-lid:before {
+	content: "\e938";
+}
+
+.icon-retirement:before {
+	content: "\e939";
+}
+
+.icon-insurance:before {
+	content: "\e93a";
+}
+
+.icon-grip2:before {
+	content: "\e93b";
+}
+
+.icon-action-alt:before {
+	content: "\e93c";
+}
+
+.icon-teampay-logo:before {
+	content: "\e93d";
+}
+
+.icon-health-benefits:before {
+	content: "\e93e";
+}
+
+.icon-health-insurance:before {
+	content: "\e93f";
+}
+
+.icon-workers-comp:before {
+	content: "\e940";
+}
+
+.icon-vision:before {
+	content: "\e941";
+}
+
+.icon-umbrella-insurance:before {
+	content: "\e942";
+}
+
+.icon-short-term-disability:before {
+	content: "\e943";
+}
+
+.icon-premium-only-plan:before {
+	content: "\e944";
+}
+
+.icon-perscription-insurance:before {
+	content: "\e945";
+}
+
+.icon-perscription-insurance2:before {
+	content: "\e946";
+}
+
+.icon-payroll:before {
+	content: "\e947";
+}
+
+.icon-pay-by-pay:before {
+	content: "\e948";
+}
+
+.icon-ny-disability:before {
+	content: "\e949";
+}
+
+.icon-long-term-disability:before {
+	content: "\e94a";
+}
+
+.icon-life-insurance:before {
+	content: "\e94b";
+}
+
+.icon-hsa:before {
+	content: "\e94c";
+}
+
+.icon-group-life:before {
+	content: "\e94d";
+}
+
+.icon-dental:before {
+	content: "\e94e";
+}
+
+.icon-commercialauto-o:before {
+	content: "\e94f";
+}
+
+.icon-chiropractic:before {
+	content: "\e950";
+}
+
+.icon-business-owner-policy:before {
+	content: "\e951";
+}
+
+.icon-paycal-company-holiday:before {
+	content: "\e952";
+}
+
+.icon-paycal-dates-week-number:before {
+	content: "\e953";
+}
+
+.icon-insights:before {
+	content: "\e954";
+}
+
+.icon-adp-payments-euro:before {
+	content: "\e955";
+}
+
+.icon-teampay-logo-fr:before {
+	content: "\e956";
+}
+
+.icon-scheduled-earning-deductions:before {
+	content: "\e957";
+}
+
+.icon-overflow:before {
+	content: "\e958";
+}
+
+.icon-financial-wellness:before {
+	content: "\e959";
+}
+
+.icon-esignature-not-signed:before {
+	content: "\e95a";
+}
+
+.icon-paycal-most-banks-closed:before {
+	content: "\e95b";
+}
+
+.icon-paycal-adp-banks-closed:before {
+	content: "\e95c";
+}
+
+.icon-esignature-signed:before {
+	content: "\e95d";
+}
+
+.icon-gl-deselect-row:before {
+	content: "\e95e";
+}
+
+.icon-gl-deselect-column:before {
+	content: "\e95f";
+}
+
+.icon-support:before {
+	content: "\e960";
+}
+
+.icon-benchmark:before {
+	content: "\e961";
+}
+
+.icon-not-editable:before {
+	content: "\e962";
+}
+
+.icon-sharepoint:before {
+	content: "\e963";
+}
+
+.icon-connect-to-adp:before {
+	content: "\e964";
+}
+
+.icon-view-pay-data-euro:before {
+	content: "\e965";
+}
+
+.icon-us-state-ak:before {
+	content: "\e966";
+}
+
+.icon-us-state-al:before {
+	content: "\e967";
+}
+
+.icon-us-state-ar:before {
+	content: "\e968";
+}
+
+.icon-us-state-az:before {
+	content: "\e969";
+}
+
+.icon-us-state-ca:before {
+	content: "\e96a";
+}
+
+.icon-us-state-co:before {
+	content: "\e96b";
+}
+
+.icon-us-state-ct:before {
+	content: "\e96c";
+}
+
+.icon-us-state-dc:before {
+	content: "\e96d";
+}
+
+.icon-us-state-de:before {
+	content: "\e96e";
+}
+
+.icon-us-state-fl:before {
+	content: "\e96f";
+}
+
+.icon-us-state-ga:before {
+	content: "\e970";
+}
+
+.icon-us-state-hi:before {
+	content: "\e971";
+}
+
+.icon-us-state-ia:before {
+	content: "\e972";
+}
+
+.icon-us-state-id:before {
+	content: "\e973";
+}
+
+.icon-us-state-il:before {
+	content: "\e974";
+}
+
+.icon-us-state-in:before {
+	content: "\e975";
+}
+
+.icon-us-state-ks:before {
+	content: "\e976";
+}
+
+.icon-us-state-ky:before {
+	content: "\e977";
+}
+
+.icon-us-state-la:before {
+	content: "\e978";
+}
+
+.icon-us-state-ma:before {
+	content: "\e979";
+}
+
+.icon-us-state-md:before {
+	content: "\e97a";
+}
+
+.icon-us-state-me:before {
+	content: "\e97b";
+}
+
+.icon-us-state-mi:before {
+	content: "\e97c";
+}
+
+.icon-us-state-mn:before {
+	content: "\e97d";
+}
+
+.icon-us-state-mo:before {
+	content: "\e97e";
+}
+
+.icon-us-state-ms:before {
+	content: "\e97f";
+}
+
+.icon-us-state-mt:before {
+	content: "\e980";
+}
+
+.icon-us-state-nc:before {
+	content: "\e981";
+}
+
+.icon-us-state-nd:before {
+	content: "\e982";
+}
+
+.icon-us-state-ne:before {
+	content: "\e983";
+}
+
+.icon-us-state-nh:before {
+	content: "\e984";
+}
+
+.icon-us-state-nj:before {
+	content: "\e985";
+}
+
+.icon-us-state-nm:before {
+	content: "\e986";
+}
+
+.icon-us-state-nv:before {
+	content: "\e987";
+}
+
+.icon-us-state-ny:before {
+	content: "\e988";
+}
+
+.icon-us-state-oh:before {
+	content: "\e989";
+}
+
+.icon-us-state-ok:before {
+	content: "\e98a";
+}
+
+.icon-us-state-or:before {
+	content: "\e98b";
+}
+
+.icon-us-state-pa:before {
+	content: "\e98c";
+}
+
+.icon-us-state-pr:before {
+	content: "\e98d";
+}
+
+.icon-us-state-ri:before {
+	content: "\e98e";
+}
+
+.icon-us-state-sc:before {
+	content: "\e98f";
+}
+
+.icon-us-state-sd:before {
+	content: "\e990";
+}
+
+.icon-us-state-tn:before {
+	content: "\e991";
+}
+
+.icon-us-state-tx:before {
+	content: "\e992";
+}
+
+.icon-us-state-ut:before {
+	content: "\e993";
+}
+
+.icon-us-state-va:before {
+	content: "\e994";
+}
+
+.icon-us-state-vt:before {
+	content: "\e995";
+}
+
+.icon-us-state-wa:before {
+	content: "\e996";
+}
+
+.icon-us-state-wi:before {
+	content: "\e997";
+}
+
+.icon-us-state-wv:before {
+	content: "\e998";
+}
+
+.icon-us-state-wy:before {
+	content: "\e999";
+}
+
+.icon-usa:before {
+	content: "\e99a";
+}
+
+.icon-frown:before {
+	content: "\e99c";
+}
+
+.icon-meh:before {
+	content: "\e99d";
+}
+
+.icon-smile:before {
+	content: "\e99b";
+}
+
+.icon-us-state-vi:before {
+	content: "\e9af";
+}
+
+.icon-us-state-gu:before {
+	content: "\e9b0";
+}
+
+.icon-canada:before {
+	content: "\e9b1";
+}
+
+.icon-ca-prov-yt:before {
+	content: "\e9b2";
+}
+
+.icon-ca-prov-nu:before {
+	content: "\e9b3";
+}
+
+.icon-ca-prov-sk:before {
+	content: "\e9b4";
+}
+
+.icon-ca-prov-qc:before {
+	content: "\e9b5";
+}
+
+.icon-ca-prov-pe:before {
+	content: "\e9b6";
+}
+
+.icon-ca-prov-on:before {
+	content: "\e9b7";
+}
+
+.icon-ca-prov-nt:before {
+	content: "\e9b8";
+}
+
+.icon-ca-prov-ns:before {
+	content: "\e9b9";
+}
+
+.icon-ca-prov-nl:before {
+	content: "\e9ba";
+}
+
+.icon-ca-prov-nb:before {
+	content: "\e9bb";
+}
+
+.icon-ca-prov-mb:before {
+	content: "\e9bc";
+}
+
+.icon-ca-prov-bc:before {
+	content: "\e9bd";
+}
+
+.icon-ca-prov-ab:before {
+	content: "\e9be";
+}
+
+.icon-file-type-ind2:before {
+	content: "\e9a0";
+}
+
+.icon-file-type-vsd2:before {
+	content: "\e9ab";
+}
+
+.icon-file-type-msg2:before {
+	content: "\e9ac";
+}
+
+.icon-financial-wellness-euro:before {
+	content: "\e9a1";
+}
+
+.icon-discounts-euro:before {
+	content: "\e9a2";
+}
+
+.icon-scheduled-earning-deductions-euro:before {
+	content: "\e9a3";
+}
+
+.icon-shift-pay-euro:before {
+	content: "\e9a4";
+}
+
+.icon-run-payroll-euro:before {
+	content: "\e9a5";
+}
+
+.icon-auto-payroll-euro:before {
+	content: "\e9a6";
+}
+
+.icon-manual-check-euro:before {
+	content: "\e9a7";
+}
+
+.icon-special-payroll-euro:before {
+	content: "\e9a8";
+}
+
+.icon-payroll-euro:before {
+	content: "\e9a9";
+}
+
+.icon-pay-by-pay-euro:before {
+	content: "\e9aa";
+}
+
+.icon-employee-on-loan-euro:before {
+	content: "\e9ad";
+}
+
+.icon-void-checks-euro:before {
+	content: "\e9ae";
+}
+
+.icon-slider-grip-vert:before {
+	content: "\e99e";
+}
+
+.icon-slider-grip-horz:before {
+	content: "\e99f";
+}
+
+.icon-pending:before {
+	content: "\e9bf";
+}
+
+.icon-active-tour:before {
+	content: "\e9c0";
+}
+
+.icon-job:before {
+	content: "\e9c1";
+}
+
+.icon-globe-wire:before {
+	content: "\e9c2";
+}
+
+.icon-frown2:before {
+	content: "\e9c3";
+}
+
+.icon-frown2-o:before {
+	content: "\e9c4";
+}
+
+.icon-smile2-o:before {
+	content: "\e9c5";
+}
+
+.icon-smile2:before {
+	content: "\e9c6";
+}
+
+.icon-org-chart-opening:before {
+	content: "\e9c7";
+}
+
+.icon-career-growth:before {
+	content: "\e9c8";
+}
+
+.icon-dna-strand:before {
+	content: "\e9c9";
+}
+
+.icon-sbs-community:before {
+	content: "\e9ca";
+}
+
+.icon-software-on-demand:before {
+	content: "\e9cb";
+}
+
+.icon-cycle:before {
+	content: "\e9cc";
+}
+
+.icon-rehire:before {
+	content: "\e9cd";
+}
+
+.icon-ziprecruiter:before {
+	content: "\e9ce";
+}
+
+.icon-pay:before {
+	content: "\e9cf";
+}
+
+.icon-plane-o:before {
+	content: "\e9d0";
+}
+
+.icon-bank-o:before {
+	content: "\e9d1";
+}
+
+.icon-expand-arrow:before {
+	content: "\e9d2";
+}
+
+.icon-cogs-alt:before {
+	content: "\e9d3";
+}
+
+.icon-magic-wand-alt:before {
+	content: "\e9d4";
+}
+
+.icon-mobile-connect:before {
+	content: "\e9d5";
+}
